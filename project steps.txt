@@ -1,0 +1,7 @@
+TODO-APP requirments
+ 1st Stage:
+
+ 1. An empty textbox should be displayed with "Add Task" button. On clicking the "Add Task" button, the value in the textbox should be added in a list displayed below and the textbox should be cleared.
+
+2. Whatever values are added in the textbox should get added in the List onw by one.
+3.There should be a "Reset" button which clears the list.
