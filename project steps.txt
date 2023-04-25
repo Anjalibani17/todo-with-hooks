@@ -5,3 +5,8 @@ TODO-APP requirments
 
 2. Whatever values are added in the textbox should get added in the List onw by one.
 3.There should be a "Reset" button which clears the list.
+
+steps:
+1.creat input text filed and add usestate also take state values like list ,inputvalue also add "ADD TASK" button.
+2.then creat event handler function on onclick event named "add" then update state values and add in list .
+3.add reset button and creat event handle function then update state value using setter method.
