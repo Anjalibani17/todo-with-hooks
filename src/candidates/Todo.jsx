@@ -2,20 +2,32 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 
-const TODO = () => {
+const Todo = () => {
+   
+    const [list, setList] = useState([]);
     const [inputvalue, setInputValue] = useState("");
-    const [list, setList] = useState();
     const add = () => {
+        
+        setList([...list, inputvalue]);
+        setInputValue("");
 
+       
+    };
+    const resetList = () => {
+        setList([]);
 
     }
-    const resetList = () => {
-
+    const change = (event) => {
+        setInputValue(event.target.value)
     }
     return (<>
-        <input type="text" />
+        <input type="text" onChange={change} value={inputvalue} />
         <input type="button" value="ADD task" onClick={add} />
-        <input type="button" value="rest" onClick={resetList} />
+        <ul>
+            {list.map((list, index) =>
+                <li key={index}>{list}</li>)}
+        </ul>
+        <input type="button" value="reset" onClick={resetList} />
     </>)
 
 
@@ -23,4 +35,4 @@ const TODO = () => {
 
 
 
-export default Todo
+export default Todo;
