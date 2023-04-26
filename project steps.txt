@@ -10,3 +10,16 @@ steps:
 1.creat input text filed and add usestate also take state values like list ,inputvalue also add "ADD TASK" button.
 2.then creat event handler function on onclick event named "add" then update state values and add in list .
 3.add reset button and creat event handle function then update state value using setter method.
+________________________________________________________________________________________________________________________
+
+2nd stage:
+1. The list items should have a checkbox beside them. Upon clicking the checkbox, the list item should be showed with strike-through and blurred color.
+
+2. All the completed items should be displayed after the active items in the list.
+
+3. When a todo is unchecked from the below list, it should go back to the first list.
+
+steps:
+1.first we add checkbox beside list item then creat event handle fun onclick named "check" and add conditions also add strike -through and blured color css when we checked button 
+2.onchecked checkbox item go into completed task section
+3.vice versa on unchecked checkbox list item go back in incompleted task section we creat fun for it.

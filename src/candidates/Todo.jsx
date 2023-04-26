@@ -25,7 +25,7 @@ const Todo = () => {
         <input type="button" value="ADD task" onClick={add} />
         <ul>
             {list.map((list, index) =>
-                <li key={index}>{list}</li>)}
+                <li key={index}>{list}<input type="checkbox" checked={false}></input></li> )}
         </ul>
         <input type="button" value="reset" onClick={resetList} />
     </>)
