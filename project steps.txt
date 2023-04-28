@@ -1,6 +1,5 @@
 TODO-APP requirments
  1st Stage:
-
  1. An empty textbox should be displayed with "Add Task" button. On clicking the "Add Task" button, the value in the textbox should be added in a list displayed below and the textbox should be cleared.
 
 2. Whatever values are added in the textbox should get added in the List onw by one.
@@ -23,3 +22,16 @@ steps:
 1.first we add checkbox beside list item then creat event handle fun onclick named "check" and add conditions also add strike -through and blured color css when we checked button 
 2.onchecked checkbox item go into completed task section
 3.vice versa on unchecked checkbox list item go back in incompleted task section we creat fun for it.
+________________________________________________________________________________________________________________________
+
+3rd stage:
+1.The list items should have a cross icon next to them. On clicking the icon, that item should get removed from the list.
+
+2. Edit icon for each item 
+
+3.Checkbox with Edit & Delete
+
+steps:
+1.add delete and edit button with checkbox or list item then creat event handle function on onclick event
+2.when we click on delet button list item should be delete using splice 
+3.also click on edit button then edit event handler fun accure and then the prompt box display & we can edit list name 
